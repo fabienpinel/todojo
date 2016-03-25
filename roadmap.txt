@@ -1,0 +1,14 @@
+1. Présenter les langages qu'on va utiliser HTML, CSS, JS
+2. Sites Statiques = HTML + CSS
+3. Mettre en place un tableau pour transformer le statique en dynamique (introduction jquery)
+4. Pouvoir Check
+5. Pouvoir en ajouter (faire un formulaire, catcher l'event submit, required, ...)
+6. SWITCH NodeJS -> REST / Socket
+7. Pratique => Todos, TodoId, socket.io
+8. Intégration avec le front
+
+
+Ajouter des features ??? on fait tester des gens
+- ajouter description
+- due date
+...
