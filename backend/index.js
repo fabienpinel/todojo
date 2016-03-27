@@ -5,6 +5,8 @@ var todos = [];
 
 io.on('connection', function (socket) {
 
+    socket.emit('todos', todos);
+
     socket.on('todo:add', function (text) {
         if (typeof text === 'string') {
             todos.push({
@@ -26,7 +28,7 @@ io.on('connection', function (socket) {
         }
     });
 
-    socket.on('todo:check', function () {
+    socket.on('todo:check', function (id) {
         for (var i = 0; i < todos.length; i++) {
             if (todos[i].id == id) {
                 todos[i].checked = !todos[i].checked;
