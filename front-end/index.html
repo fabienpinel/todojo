@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todolist</title>
+    <!-- CSS for our todolist -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- HTML Structure for the todolist -->
+<div class="container">
+    <div>
+        <input type="text" placeholder="Filter" id="filter">
+    </div>
+    <form id="todolist_form">
+        <input type="text" placeholder="Todo description..." required>
+        <input type="date" name="anniversaire" required>
+        <button type="submit">+ Add</button>
+    </form>
+    <div id="todoliste_container">
+        <!-- Here we gonna render the todos -->
+        <ul id="todoliste"></ul>
+    </div>
+</div>
+
+<!-- Script to get real time todolist -->
+<script src="http://localhost:8080/socket.io/socket.io.js"></script>
+
+<!-- Jquery : nothing to say about it ;) -->
+<script src="jquery.js"></script>
+
+<!-- our main app file ! -->
+<script src="main.js"></script>
+
+</body>
+</html>

@@ -40,3 +40,19 @@ ul#todoliste{
     cursor: pointer;
     outline: 0px;
 }
+
+li .checked {
+    text-decoration: line-through;
+}
+
+.delete {
+    cursor:pointer;
+}
+
+input#filter {
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    min-width: 257px;
+    margin-top: 5px;
+}
