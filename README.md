@@ -5,7 +5,9 @@
 Commencez par installer NodeJS : https://nodejs.org/en/download/
 
 Ensuite : `cd back-end`
+
 Puis `npm install` pour installer les dépendances (socket.io pour les sockets et l'effet temps réel)
+
 Enfin : `node index.js` pour démarrer le serveur
 
 ## Pour le Front
